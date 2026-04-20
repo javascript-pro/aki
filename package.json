@@ -1,22 +1,13 @@
 {
-  "version": "2.2.3",
+  "version": "2.2.4",
   "name": "aki",
   "description": "Ringfenced AI powered Document Management for SMEs",
   "scripts": {
-    "dev": "clear && yarn start",
-    "test": "echo No tests yet",
     "start": "node start.mjs",
     "ollama": "ollama serve",
-    "phi3": "ollama run phi3",
-    "codellama": "ollama run codellama",
-    "frontend": "cd ./aki-frontend && yarn dev",
-    "backend": "cd ./aki-backend && yarn dev"
+    "phi3": "ollama run phi3"
   },
   "packageManager": "yarn@4.3.1",
-  "workspaces": [
-    "aki-backend",
-    "aki-frontend"
-  ],
   "dependencies": {
     "open": "^10.2.0"
   }
